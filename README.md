@@ -89,7 +89,8 @@ The call to exchange tokens could look like this:
     You can also include an email field and/or a password field used to create new users and/or to find and link existing users.  
     If an existing account with the same email is found a password (or authentication) will be required to link with that account. In this case the token exchange fails with the found email included in the response. Another request will be required with the password field included to link with the existing account.
     ```
-    email = your@email.com
+    
+    email = your@email.org
     password = existing_account_password
     ```
 
